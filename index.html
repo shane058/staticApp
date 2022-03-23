@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta charset=”utf-8”> 
+     <title>ShaneSite</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity=
+"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+		crossorigin="anonymous">
+    
+    
+    </head>
+    
+    <body>
+    
+        <div class="”container”">
+            <div class="navbar">
+	          <div class="navbar-inner">
+	            <div class="container">
+	              <ul class="nav">
+                      <li><a href="#homeTarget">Home</a></li>
+                      <li><a href="#workTarget">Work Experience</a></li>
+                      <li><a href="#eduTarget">Education</a></li>
+	                  <li><a href="#projectTarget">Project</a></li>
+	                  <li><a href="#interestsTarget">Interests</a></li>
+                     <li><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#conModal">Contact</button></li> 
+                      <a name="index.html"></a>
+                    
+	              </ul>
+	            </div>
+	          </div>
+	        </div>
+            
+        </div>
+      
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#conModal"> </button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="conModal"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Shane</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+        <div class="landing">
+            <div class ="landText">
+                <hr>
+                <h1 class="text-center">Welcome to Shane's Portfolio</h1>
+                <p class="text-center">Online CV</p>
+                <hr>
+        <br>
+            </div>
+            
+<div class="heroSec">
+<div class="row">
+<div class="col-md-6 how-img">
+<img src="propic.jpeg" class="rounded-circle img-fluid" alt="atAWS"/></div>
+<div class="col-md-6">
+
+<h4>Personal info</h4>
+<h4 class="subheading">IT Student with some professional experience</h4>
+<p class="text-muted">Hello, and welcome to my website!
+    My name is Shane Byrne and I am a 27 year old IT management Student.
+    I currently live in Dublin, Ireland.</p>
+    
+<h4>Professional Experience / Field</h4>
+<h4 class="subheading">IT professional with experience in AWS</h4>
+<p class="text-muted">This previous year I spent on the database team at Amazon Web Services.
+    I spent most of time in the database team. I worked on various projects including an international collaboration with the cape town team as well as personal projects. </p>
+    
+<h4>Cloud Architecture</h4>
+<h4 class="subheading"> Cloud Provision and Management</h4>
+<p class="text-muted">While at AWS I was responsible for solving customer issues related to cloud services provided by AWS. I also designed and deployed entire cloud architectures for these clients.</p>
+    
+    
+<h4>Educational Background</h4>
+<h4 class="subheading">ITT / TU Dublin batchelor of science in computing(Honours)</h4>
+<p class="text-muted">Currently enrolled in a computing program at TU Dublin Tallaght campus.
+    I will graduate in may of 2022 and seek to pursue an exciting career in the cloud computing sub sector.</p>
+                     </div>
+                    </div>
+            </div>
+                     
+
+       </div>
+            
+            <hr>
+            <br>
+        <a name="workTarget"></a>
+     
+        <div class ="workExperience">
+           
+            <h1 class="text-center">Work Experience</h1>
+            <br>
+                <p class="text-center">This year I completed work experience at AWS</p>
+                <p class="text-center">Click on the buttons to find out more</p>
+             </div>
+        
+        
+        
+<div class="container my-3 bg-light">
+<div class="col-md-12 text-center">
+<button type="button" class="btn btn-info" onclick=" printInfo()">Day to Day work</button>
+<button type="button" class="btn btn-info" onclick =" printProj()" >Personal Project</button>
+<button type="button" class="btn btn-info" onclick =" printBus()" >Business Project</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#awsPic">
+Group Picture</button>
+    
+<div class="modal fade" id="awsPic" tabindex="-1" role="dialog" aria-labelledby="awsCentered" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">AWS Group picture</h5>
+        <div class="modal-body">
+<img id="awsGroupPic" src="awsPic.jpg"alt="Click on button" />
+				</div>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+</div>
+</div>
+        
+<script>
+function printInfo()
+{
+window.alert("Day to Day work at AWS consisted of a variety of very interesting activities,I worked on the database team. This work consisted of solving customer issues over email or live chat, and participating in broader workloads assigned to a the team. I really got to get my hands dirty using the cloud based platform and learned a lot about enterprise architecture.")
+} 
+</script>
+
+<script>
+function printProj()
+{
+window.alert("I worked on two projects at AWS, One was a personal project wherein I had the freedom to do what I wanted, My project was a back end focused scalable cloud architecture. I used a relational database as the heart of the project and built it to be scalable and reliable.")
+} 
+</script>
+        
+<script>
+function printBus()
+{
+window.alert("Due to an NDA I cannot discuss the exact nature of the business project I participated in at AWS, however I can say I used API's and javascript and worked alongside the team in cape town, This was my first experience working internationally so it was very exciting.")
+} 
+</script>
+    
+
+            
+         
+        
+        
+       
+
+        
+<br><br><br><br><br><br><br><br>
+        <hr>
+       
+         <a name="eduTarget"></a> 
+             <div class ="education">
+           
+            <h1 class="text-center">Education</h1>
+            <br>
+                <p class="text-center">Enrolled TU Dublin Tallaght</p>
+                <p class="text-center">Currently Enrolled in TU Dublin Tallaght pursuing an honours degree in IT management</p>
+                  <a name="eduTarget"></a>  
+                 
+                 <table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Year</th>
+      <th scope="col">Module</th>
+      <th scope="col">Grade</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">2</th>
+      <td>Software Development</td>
+      <td>B+</td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Statistics</td>
+      <td>B</td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Routing and Switching Essentials</td>
+      <td>A</td>
+    </tr>
+       <tr>
+      <th scope="row"></th>
+      <td>Management Science</td>
+      <td>C+</td>
+    </tr>
+       <tr>
+      <th scope="row"></th>
+      <td>Project</td>
+      <td>B</td>
+    </tr>
+       <tr>
+      <th scope="row"></th>
+      <td>Databases</td>
+      <td>B+</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+        
+<br> 
+        
+                         <table class="table table-light">
+  <thead>
+    <tr>
+      <th scope="col">Year</th>
+      <th scope="col">Module</th>
+      <th scope="col">Grade</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">3</th>
+      <td>Data Analytics</td>
+      <td>B</td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Big Data Analysis</td>
+      <td>B</td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>Data Structures and algorithyms</td>
+      <td>A</td>
+    </tr>
+       <tr>
+      <th scope="row"></th>
+      <td>Advanced Database Technologies</td>
+      <td>C+</td>
+    </tr>
+       <tr>
+      <th scope="row"></th>
+      <td>Experiential Learning</td>
+      <td>B</td>
+    </tr>
+       <tr>
+      <th scope="row"></th>
+      <td>Information Security</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+                 
+              
+        
+        
+            
+<br><br><br><br><br><br><br><br>
+        <hr>
+       
+         <a name="projectTarget"></a> 
+             <div class ="project">
+           
+            <h1 class="text-center">Project</h1>
+            <br>
+                <p class="text-center"> AWS Cloud Architecture Project</p>
+                <p class="text-center"></p>
+                 <a name="projectTarget"></a> 
+                 <div class="projSec">
+<div class="row">
+<div class="col-md-6 how-img">
+<img src="cloud.png" class="img-fluid" alt="atAWS"/></div>
+<div class="col-md-6">
+
+<h4>Overview</h4>
+<h4 class="subheading">Cloud Arcitecture using AWS services</h4>
+<p class="text-muted">The goal of the project was to create a resilient, scalable and highly available cloud architecture in AWS services</p>
+    
+    <br><br>
+    
+<h4>Challenges</h4>
+<h4 class="subheading">Challenges encountered</h4>
+<p class="text-muted">The project was large in scale for one individual.I combined many services AWS offers. I had many obstacles including compatibility, scaling and fault tolerance testing  </p>
+    <br><br>
+    
+<h4>Positive outcomes</h4>
+<h4 class="subheading"> Business use</h4>
+<p class="text-muted">Due to an NDA I cannot disclose the exact nature of the project, but it used an RDS as the core, and was adopted by the business in day to day operations</p>
+    
+    
+
+                     </div>
+                    </div>
+            </div>
+        </div>
+        
+        
+          <br><br><br><br><br><br><br><br>
+        <hr>
+        
+<div class="container-fluid bg-3 text-center">
+  <h3>Interests</h3>
+    <br><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Computing</p>
+      <img src="mAC.jpg" alt="Image">
+        <p>I have always had an interest in computing and like to play around and break things in my free time</p>
+    </div>
+    <div class="col-sm-4">
+      <p>Videogames</p>
+      <img src="halo.jpg" alt="Image">
+         <p>I have been playing games since I was a small child and still play the latest releases every year. Its been a staple of my free time ever since</p>
+    </div>
+    <div class="col-sm-4">
+      <p>Cycling</p>
+      <img src="bike.jpg" alt="Image">
+        <p>I started cycling during the first lockdown and never stopped, its been a great way to keep fit and stay active.</p>
+    </div>
+  </div>
+</div>
+        <a name="interestsTarget"></a>
+        
+        <br><br>
+ 
+        <div id="endText">
+    <a href="index.html" id="homeLink">Return Home</a>
+</div>
+    
+
+          <br><br>
+        <hr>
+        
+        
+     
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src=”js/bootstrap.js”></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"integrity=
+"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity=
+"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous">
+</script>
+<script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity=
+"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous">
+     </script> 
+    
+    </body>
+
+</html>
